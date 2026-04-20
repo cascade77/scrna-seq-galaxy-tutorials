@@ -9,14 +9,22 @@ This repository documents a complete single-cell RNA-seq analysis pipeline, carr
 All Galaxy steps were run on usegalaxy.eu. Scanpy and AnnData notebooks were run on Google Colab.
 
 ## Repository Structure
-
 ```
 .
-├── 01_tenx_preprocessing/       # Tutorial 1: STARsolo + DropletUtils on Galaxy + readme
-├── 02_basic_scrna_scanpy/       # Tutorial 2: Scanpy preprocessing & clustering + readme
-├── 03_anndata_tutorial/         # Tutorial 3: AnnData format exploration + readme
+├── 01_tenx_preprocessing/       # Tutorial 1: STARsolo + DropletUtils on Galaxy
+│   ├── outputs/                 # Filtered count matrix (barcodes, features, matrix) + plots
+│   └── README.md
+├── 02_basic_scrna_scanpy/       # Tutorial 2: Scanpy preprocessing & clustering
+│   ├── outputs/                 # QC, PCA, UMAP, clustering plots
+│   ├── basic-scrna-tutorial.ipynb
+│   └── README.md
+├── 03_anndata_tutorial/         # Tutorial 3: AnnData format exploration
+│   ├── outputs/
+│   ├── getting-started.ipynb
+│   └── README.md
 └── README.md
 ```
+
 ## Sections
 
 ### 1. Pre-processing of 10X Single-Cell RNA Datasets
