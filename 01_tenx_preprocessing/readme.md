@@ -53,7 +53,7 @@ MultiQC confirmed ~87.5% uniquely mapped reads. EmptyDrops filtering retained hi
 
 | Knee Plot | EmptyDrops Plot |
 |-----------|----------------|
-| ![Knee Plot](knee_plot.png) | ![EmptyDrops Plot](emptydrops_plot.png) |
+| ![Knee Plot](outputs/knee_plot.png) | ![EmptyDrops Plot](outputs/emptydrops_plot.png) |
 
 ## Platform
 
