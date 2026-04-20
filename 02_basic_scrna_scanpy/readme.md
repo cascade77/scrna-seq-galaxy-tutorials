@@ -53,41 +53,41 @@ MTX input → QC metrics → Filtering → Normalization → HVG selection → P
 
 | QC Violin | QC Scatter |
 |-----------|------------|
-| ![QC Violin](qc_violin.jpeg) | ![QC Scatter](qc_scatter.jpeg) |
+| ![QC Violin](outputs/qc_violin.jpeg) | ![QC Scatter](outputs/qc_scatter.jpeg) |
 
 ### Highly Variable Genes & PCA
 
 | Highly Variable Genes | PCA Variance Ratio |
 |----------------------|--------------------|
-| ![HVG](highly_variable_genes.jpeg) | ![PCA Variance](pca_variance_ratio.jpeg) |
+| ![HVG](outputs/highly_variable_genes.jpeg) | ![PCA Variance](outputs/pca_variance_ratio.jpeg) |
 
 | PCA Plot |
 |----------|
-| ![PCA](pca_plot.jpeg) |
+| ![PCA](outputs/pca_plot.jpeg) |
 
 ### UMAP
 
 | UMAP by Sample | UMAP by Leiden |
 |----------------|----------------|
-| ![UMAP Sample](umap_sample.jpeg) | ![UMAP Leiden](umap_leiden.jpeg) |
+| ![UMAP Sample](outputs/umap_sample.jpeg) | ![UMAP Leiden](outputs/umap_leiden.jpeg) |
 
 | UMAP Doublets | UMAP QC Metrics |
 |---------------|-----------------|
-| ![UMAP Doublets](umap_doublets.jpeg) | ![UMAP QC](umap_qc_metrics.jpeg) |
+| ![UMAP Doublets](outputs/umap_doublets.jpeg) | ![UMAP QC](outputs/umap_qc_metrics.jpeg) |
 
 | UMAP Leiden Resolutions |
 |------------------------|
-| ![UMAP Resolutions](umap_leiden_resolutions.jpeg) |
+| ![UMAP Resolutions](outputs/umap_leiden_resolutions.jpeg) |
 
 ### Marker Genes
 
 | Known Markers Dotplot | Ranked Genes Dotplot |
 |----------------------|---------------------|
-| ![Known Markers](dotplot_known_markers.jpeg) | ![Ranked Genes](dotplot_ranked_genes.jpeg) |
+| ![Known Markers](outputs/dotplot_known_markers.jpeg) | ![Ranked Genes](outputs/dotplot_ranked_genes.jpeg) |
 
 | Marker Gene UMAPs |
 |------------------|
-| ![Marker Genes](umap_marker_genes.jpeg) |
+| ![Marker Genes](outputs/umap_marker_genes.jpeg) |
 
 ## Note on Output File
 
